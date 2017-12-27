@@ -1,5 +1,5 @@
 import logging
-import urlparse
+from urllib.parse import urlparse
 
 from django.http import HttpResponseRedirect, Http404
 from django.shortcuts import render
